@@ -19,7 +19,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
-      - name: Run scraper
+      - name: Run scraper by s.anand@gramener.com
         run: | # python
           uv run --with httpx,lxml,cssselect python scrape.py
 
