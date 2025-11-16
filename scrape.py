@@ -11,7 +11,7 @@ def scrape_imdb() -> List[Dict[str, str]]:
     Returns:
         List of dictionaries containing movie title, year, and rating.
     """
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; IMDbBot/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; IMDbScraper/1.0)"}
     response = httpx.get("https://www.imdb.com/chart/top/", headers=headers)
     response.raise_for_status()
 
