@@ -21,7 +21,7 @@ jobs:
 
       - name: Run scraper by s.anand@gramener.com
         run: | # python
-          uv run --with httpx,lxml,cssselect python scrape.py
+          uv run scrape.py
 
       - name: Commit and push changes
         run: |

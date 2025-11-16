@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "cssselect",
+#     "httpx",
+#     "lxml",
+# ]
+# ///
 import json
 import httpx
 from datetime import datetime, UTC
